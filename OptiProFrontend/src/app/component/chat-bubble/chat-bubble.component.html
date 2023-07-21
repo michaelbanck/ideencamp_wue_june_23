@@ -1,0 +1,6 @@
+<div class="chat-bubble" [class.chat-bubble-left]="isBot" [class.chat-bubble-right]="!isBot">
+  <div class="chat" [class.bot]="isBot" [class.user]="!isBot">{{text}}
+    <div *ngIf="isBot" class="chat-tag">Optipro Bot</div>
+    <div *ngIf="!isBot" class="chat-tag">Du</div>
+  </div>
+</div>

@@ -1,0 +1,226 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~material-design-icons/iconfont/material-icons.css';
+@import '~roboto-fontface/css/roboto/roboto-fontface.css';
+
+$bot-color: #00F;
+$user-color: #a00;
+
+html, body {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: #555
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.full-width {
+  width: 100%;
+}
+
+
+.centered {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.headline {
+  text-align: center;
+}
+
+.light-theme .themed {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.light-theme .theme-secondary {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+.light-theme .strong-themed {
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+
+.light-theme.app-content {
+  background: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+
+.nxt-lvl-button .button-text {
+  text-align: center;
+  line-height: 300%;
+  font-size: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.light-theme .themed-text {
+  color: white;
+}
+
+.head-text {
+  text-align: center;
+  font-size: 24pt !important;
+  line-height: 200% !important;
+}
+
+
+.light-theme .reverse-themed-text {
+  color: black;
+}
+
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nxt-lvl-dialog {
+  max-width: 100% !important;
+  margin: 5px;
+}
+
+.flex-horizontal {
+
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+
+}
+
+.flex-vertical {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.nxt-lvl-button {
+  min-width: 300px;
+  padding: 10px 5px;
+}
+
+.card-nav {
+  min-width: 500px;
+  line-height: 300px !important;
+  text-align: center;
+  margin-right: 15px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.description {
+  text-align: center;
+  font-size: 16pt;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.chat-input-field {
+  position: fixed;
+  bottom: 20px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.chat {
+  position: relative;
+  width: 80%;
+  margin-left: 15px;
+  margin-top: 20px;
+  padding: 20px 10px 10px;
+  clear: both;
+  border-radius: 5px;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.bot {
+  border: 2px solid $bot-color;
+}
+
+.user {
+  border: 2px solid $user-color;
+}
+
+.chat-tag {
+  font-size: 18px;
+  padding: 3px;
+  position: absolute;
+  top: -12px;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.bot .chat-tag {
+  background: $bot-color;
+  color: white;
+  left: 15px;
+  //background: rgb(136, 136, 136);
+  border-color: $bot-color;
+}
+
+.user .chat-tag {
+  background: $user-color;
+  color: white;
+  right: 15px;
+  //background: rgb(136, 136, 136);
+  border-color: $user-color;
+}
+
+.mat-form-field-appearance-outline.mat-focused
+.mat-form-field-outline-thick {
+  color: $user-color;
+}
+
+.mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+  color: $user-color;
+}
+
+.mat-form-field.mat-focused .mat-form-field-label {
+  color: $user-color;
+}
+
+.chat-wrapper {
+  padding-bottom: 200px;
+}
+
+
+app-recorder {
+  position: fixed;
+  bottom: 75px;
+  right: 50px;
+}
+
+.email-button {
+  margin-top: 20px !important;
+}
+
+@media only screen and (min-width: 1000px) {
+  .nxt-lvl-button .button-text {
+    font-size: 28px;
+  }
+}
+
+

@@ -1,0 +1,6 @@
+<button *ngIf="state === IS_IDLE" (click)="startRecording()" matTooltip="Sprachaufnahme beginnen" mat-mini-fab color="warn">
+  <mat-icon>mic</mat-icon>
+</button>
+<button class="active-mic" *ngIf="state === IS_RECORDING" (click)="stopRecording()" matTooltip="Sprachaufnahme beenden" mat-mini-fab>
+  <mat-icon>mic</mat-icon>
+</button>

@@ -1,0 +1,32 @@
+app-recorder{
+  position: fixed;
+  bottom: -20px;
+  right: -20px;
+}
+
+.active-mic {
+  position: fixed;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+  z-index: 5;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  animation: active-button 1s ease-in-out 0s infinite alternate;
+}
+
+::ng-deep .active-mic .mat-icon{
+  height:200px;
+  width:200px;
+  font-size:200px;
+}
+
+
+@keyframes active-button {
+  from {
+    background-color: blue;
+  }
+  to {
+    background-color: deepskyblue;
+  }
+}

@@ -1,2 +1,2 @@
 # ideencamp_wue_june_23
-Prompt Engineering, STT, Chat App
+This project was developed during a quick hackathon and consists of both frontend and backend components. However, due to the audio recording being handled exclusively in the backend, it cannot be utilized as a typical client-server application. The project includes prompt engineering for ChatGPT, enabling requests to ChatGPT. Additionally, it incorporates the use of the Google API for Speech-to-Text (STT)

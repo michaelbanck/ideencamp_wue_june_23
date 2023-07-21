@@ -1,0 +1,52 @@
+<!--<img class="background-image" src="assets/images/zeusdalle.jpg">-->
+<app-progress-overlay></app-progress-overlay>
+<div class="app-content light-theme" theme>
+  <div *ngIf="menuService.display" class="menu themed" >
+    <div class="menu-button-container">
+      <div class="menu-button" [class.menu-button-rotate]="isMenuOpen"
+           [class.menu-button-unrotate]="closeMenu"
+           (click)="menuClicked()">
+        <mat-icon>menu</mat-icon>
+      </div>
+    </div>
+    <div class="title-bar">
+      <div class="title">{{menuService.name}}</div>
+    </div>
+    <div class="title-bar dumbbell">
+      <mat-icon>info</mat-icon>
+    </div>
+  </div>
+  <div class="content">
+    <div class="sidebar themed" [class.sidebar-move-in]="isMenuOpen"
+         [class.sidebar-move-out]="closeMenu">
+      <div *ngIf="this.router.url !== '/'" class="sidebar-item">
+        <div routerLink="/" (click)="menuClicked()">
+          <mat-icon>home</mat-icon>
+          <a>Home</a></div>
+      </div>
+      <div *ngIf="this.router.url !== '/docs'" class="sidebar-item">
+        <div routerLink="/docs" (click)="menuClicked()">
+          <mat-icon>description</mat-icon>
+          <a>Docs</a></div>
+      </div>
+      <div *ngIf="this.router.url !== '/tools'" class="sidebar-item">
+        <div routerLink="/tools" (click)="menuClicked()">
+          <mat-icon>build</mat-icon>
+          <a>Tools</a></div>
+      </div>
+      <div *ngIf="this.router.url !== '/translate'" class="sidebar-item">
+        <div routerLink="/translate" (click)="menuClicked()">
+          <mat-icon>translate</mat-icon>
+          <a>Übersetzung</a></div>
+      </div>
+      <div *ngIf="this.router.url !== '/schedule'" class="sidebar-item">
+        <div routerLink="/schedule" (click)="menuClicked()">
+          <mat-icon>schedule</mat-icon>
+          <a>Zeitplan</a></div>
+      </div>
+    </div>
+    <div class="main">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

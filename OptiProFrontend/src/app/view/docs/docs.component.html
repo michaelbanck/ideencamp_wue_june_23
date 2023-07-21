@@ -1,0 +1,9 @@
+<div class="centered" theme>
+  <div class="chat-wrapper">
+    <app-chat-bubble *ngFor="let c of exampleChat.messages" [isBot]="c.isBot" [text]="c.text"></app-chat-bubble>
+  </div>
+
+  <div class="chat-input-field">
+    <button class="full-width"  mat-raised-button (click)="sendDialog()">Erstellen</button>
+  </div>
+</div>

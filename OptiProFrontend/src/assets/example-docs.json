@@ -1,0 +1,130 @@
+{
+  "systemInfo": "Du bist ein KI-Assistent, der für die Erstellung eines Meeting-Protokolls zuständig ist. Deine Aufgabe besteht darin, die Namen der Teilnehmer, die besprochenen Themen und die erzielten Ergebnisse zusammenzufassen. Du sollst alle wichtigen Punkte und Entscheidungen klar und präzise darstellen. Achte darauf, dass deine Ausgabe professionell formatiert ist und in einem klaren, neutralen Ton geschrieben ist. Nachfolgend findest du den Transkript des Meetings. Bitte erstelle daraus das Meeting-Protokoll. Heute ist der 10. Mai 2023, es ist 14: Uhr bitte entnehme die Teilnehmer aus dem Chat",
+  "messages": [
+    {
+      "isBot": false,
+      "text": "Herzlich willkommen Mark und Nadine, ich habe euch heute eingeladen, um über die Einführung eines PDF Imports in unserer Dokumentationssoftware zu diskutieren.",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Frank, ich möchte ein fertiges Design von WordPress verwenden.",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Ich hätte gerne ein eigenes Design. Mir gefällt keines der WordPress-Designs, und sie passen nicht zu unserem Corporate Design.",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Ist die Entwicklung eines eigenen Designs nicht teuer?",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Hallo alle zusammen! Danke, dass ihr hier seid, um über diese neue Funktion zu sprechen. Es ist wichtig, dass wir sowohl die Kosten als auch das Design im Auge behalten.",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Frank, du hast vorgeschlagen, ein fertiges Design von WordPress zu verwenden. Das könnte in der Tat eine kostengünstige Option sein. Mark, du möchtest ein eigenes Design erstellen. Könntest du uns mehr über dein Designkonzept erzählen und wie es sich in unser Corporate Design einfügt?",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Natürlich! Mein Designkonzept basiert auf den vorhandenen Designrichtlinien unseres Unternehmens. Ich habe einige Vorschläge vorbereitet, die die Benutzerfreundlichkeit verbessern und gleichzeitig unser Branding widerspiegeln.",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Das klingt interessant, Mark. Aber was denkst du darüber, Nadine? Ist ein individuelles Design die beste Option?",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Ich denke, ein individuelles Design würde unsere Marke besser repräsentieren. Es würde uns von anderen Unternehmen abheben und eine einzigartige Benutzererfahrung bieten.",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Das verstehe ich. Aber wir müssen auch den Zeit- und Kostenaufwand berücksichtigen. Frank, wie viel Zeit würdest du benötigen, um das fertige Design von WordPress anzupassen?",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Ich schätze, dass ich etwa eine Woche brauche, um das Design anzupassen und sicherzustellen, dass es gut mit unserer Software funktioniert.",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Eine Woche ist eine vernünftige Zeitspanne. Mark, wie viel Zeit würdest du benötigen, um dein individuelles Design umzusetzen?",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Ich habe bereits einige Vorarbeiten geleistet und schätze, dass ich etwa zwei Wochen benötige, um das Design fertigzustellen.",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Das hört sich nach einem akzeptablen Zeitrahmen an. Was denkst du, Frank? Könnten wir diese zusätzliche Woche für das individuelle Design aufbringen?",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Ich bin der Meinung, dass das individuelle Design einen Mehrwert bietet und wir die zusätzliche Woche investieren sollten, um ein einzigartiges Benutzererlebnis zu schaffen.",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Ich schließe mich deiner Meinung an, Frank. Mark, könntest du uns einige Entwürfe zeigen, damit wir eine bessere Vorstellung von deinem Designkonzept bekommen?",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Natürlich! Ich habe einige Mock-ups erstellt, die ich euch gerne präsentieren würde.",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Perfekt! Lass uns die Entwürfe anschauen und dann eine endgültige Entscheidung treffen. Wir sollten auch die Kosten für die Umsetzung des individuellen Designs einschätzen, um sicherzustellen, dass es innerhalb des Budgets liegt.",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Das klingt vernünftig. Ich habe bereits einige Kostenschätzungen vorbereitet, die ich euch zeigen kann.",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Super! Lasst uns dann die Entwürfe und Kostenbewertungen überprüfen und in der nächsten Besprechung eine endgültige Entscheidung treffen. Vielen Dank für eure Beiträge, Mark, Frank und Nadine!",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Vielen Dank für die Einladung. Ich freue mich auf die weitere Zusammenarbeit.",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Ebenfalls vielen Dank! Ich bin gespannt auf die Präsentation der Entwürfe.",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Ich werde sicherstellen, dass wir in der nächsten Besprechung zu einer abschließenden Entscheidung kommen. Bis dahin wünsche ich euch allen einen produktiven Tag!",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Euch auch einen schönen Tag!",
+      "link": ""
+    },
+    {
+      "isBot": false,
+      "text": "Danke, bis zur nächsten Besprechung!",
+      "link": ""
+    }
+  ]
+}
